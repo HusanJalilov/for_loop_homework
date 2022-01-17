@@ -1,3 +1,6 @@
+from re import S
+
+
 def main(price):
     """
     The price of a kilogram of sweets is given. Return the price of a dessert from one to ten kg in the form of a list.
@@ -6,4 +9,8 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    s=[]
+    for x in range(1,11):
+        s.append(price*x)
+    return s
+print(main(2.25))
