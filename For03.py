@@ -7,4 +7,8 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    s=[]
+    k=str(k)
+    s.append(k)
+    return s*n
+print(main(1,4))

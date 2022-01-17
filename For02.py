@@ -6,4 +6,11 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    s=""
+    for x in range(n):
+        s+=str(n)
+        return s
+        
+    
+print(main(1245))
+
