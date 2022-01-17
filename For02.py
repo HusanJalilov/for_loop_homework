@@ -10,7 +10,8 @@ def main(n):
     d=str(n)
     for x in range(len(d)):
         s.append(d[x])
-    return(s)
+        row=str(s)
+    return(row,type(row))
     
         
     
