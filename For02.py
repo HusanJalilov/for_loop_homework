@@ -6,10 +6,11 @@ def main(n):
     Returns:
         string: return  answer
     """
-    s=""
-    for x in range(n):
-        s+=str(n)
-        return s
+    d=""
+    s=str(n)
+    for x in range(len(s)):
+        d+=s[x]+","
+    return d
         
     
 print(main(1245))
