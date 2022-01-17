@@ -6,11 +6,12 @@ def main(n):
     Returns:
         string: return  answer
     """
-    d=""
-    s=str(n)
-    for x in range(len(s)):
-        d+=s[x]+","
-    return d
+    s=[]
+    d=str(n)
+    for x in range(len(d)):
+        s.append(d[x])
+    return(s)
+    
         
     
 print(main(1245))
